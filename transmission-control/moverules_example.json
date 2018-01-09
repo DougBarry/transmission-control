@@ -1,0 +1,1 @@
+[{"pattern": "(.*)iso$", "destination": "/smb/storage/iso"}, {"pattern": "(.*)ebook$", "destination": "/smb/ebooks-unsorted"}]

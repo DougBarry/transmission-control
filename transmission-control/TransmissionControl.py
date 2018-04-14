@@ -312,6 +312,7 @@ if __name__ == '__main__':
     trackers_group.add_argument('-a', '--trackers-file', help='Default extra trackers input file', type=str,
                                 dest='tracker_file', default='')
 
+    args = parser.parse_args()
 
     rootLogger = logging.getLogger()
     if args.verbose:
